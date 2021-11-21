@@ -1,0 +1,408 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html, body{
+
+	height: 100%;
+	width: 100%;
+}
+
+.conteiner{
+
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid rgb(145, 160, 172);
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.conteiner_bolsa{
+
+    width: 100%;
+    height: 300px;
+    border-top: 2px solid rgb(145, 160, 172);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.depart{
+
+    position: relative;
+    margin-top: -13px;
+    background-color: white;
+    width: 300px;
+    margin-left: 42%;
+}
+
+
+
+.buttom-esquerdo{
+
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 130px;
+}
+
+.buttom-esquerdo button{
+
+    width: 30px;
+    height: 30px;
+    background-image: url("../imagens/seta_esquerda.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+    margin-left: 10px;
+
+}
+.buttom-esquerdo:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.departamento{
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 85px;
+    vertical-align: top;
+    border: 6px solid rgb(106, 140, 202);
+}
+
+#sandalia{
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 85px;
+    vertical-align: top;
+    border: 6px solid rgb(106, 140, 202);
+}
+
+
+.buttom-direito{
+
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 130px;
+    margin-left: 5px;
+}
+
+.buttom-direito button{
+
+    width: 30px;
+    height: 30px;
+    background-image: url("../imagens/seta_direita.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+.buttom-direito:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#sandalia button{
+
+    background-image:url("../imagens/sandalia.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 124px;
+    margin-top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#sandalia:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#sandalia_ button{
+
+    background-image:url("../imagens/sandalia.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 124px;
+    margin-top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#sandalia_:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+.departamento a{
+    text-decoration: none;
+
+}
+
+.departamento button{
+
+    margin-bottom: 30px;
+
+}
+
+#tenis button{
+
+    background-image:url("../imagens/tenis.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 124px;
+    margin-top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#tenis:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#tenis_ button{
+
+    background-image:url("../imagens/tenis.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 124px;
+    margin-top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#tenis_:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#calca button{
+
+    background-image:url("../imagens/calca.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 124px;
+    margin-top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#calca:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#camisa button{
+
+    background-image:url("../imagens/camisa.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 124px;
+    margin-top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#camisa:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#vestido button{
+
+    background-image:url("../imagens/vestido.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 124px;
+    margin-top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#vestido:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#bolsa button{
+
+    background-image:url("../imagens/bolsa.jpg") ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 124px;
+    margin-top: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#bolsa:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.circulo{
+
+    width: 100%;
+    
+}
+
+.circulo{
+
+    max-width: 100%;
+    text-align: center;
+    
+}
+.circ{
+
+    display: inline-block;
+
+}
+.circ button{
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(226, 233, 236);
+    margin-left: 5px;
+
+
+}
+
+#circ_x button{
+
+    background-color: rgb(173, 208, 223);
+    cursor: pointer;
+    -moz-transition: all 0.3;
+    -webkit-transition: all 0.3;
+    transition: all 0.3;
+
+}
+#circ_x:hover button{
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#conteiner_estatico{
+
+    display: inline-block;
+}
+
+.conteiner{
+
+    display: none;
+}
+
+#sandalia_{
+
+    margin-left: 13px;
+}
+
+#tenis_{
+
+    margin-left: 10px;
+}
+
+#buttom-esquerdo_{
+
+    margin-left: 0px;
+}
+
+#buttom-direito_{
+
+    margin-left: 0px;
+    
+}
+
